@@ -3,9 +3,9 @@ environments:
     id: f5e7112d-ab5e-46a7-8ecb-6d2f8efc2044
     repos:
       madara:
-        image: prkpandey942/madara:latest
+        image: evolvez/madara:b2cdbfcb634a4b15b04758431e6bb8a7656bf666
         files:
-          chain_config_url: "https://github.com/karnotxyz/madara/blob/updated/crates/primitives/chain_config/presets/test.yaml"
+          chain_config_url: "https://github.com/astraly-labs/madara/blob/main/infra/pragma/pragma-devnet.yaml"
         config:
           --network: "devnet"
           --chain-config-path: "/var/madara/presets/config.yaml"
