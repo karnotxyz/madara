@@ -1,6 +1,6 @@
 environments:
-  - project: devnet
-    id: 5ac2bbca-b3e1-4849-b04c-116819c6c13a
+  - project: karnot-internal
+    id: f5e7112d-ab5e-46a7-8ecb-6d2f8efc2044
     repos:
       madara:
         image: evolvez/madara:latest
